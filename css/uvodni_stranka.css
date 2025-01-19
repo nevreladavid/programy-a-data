@@ -8,7 +8,7 @@ body {
 }
 /* Nastavení záhlaví*/
 header {
-    background-color: rgb(102, 188, 209);
+    background-color: rgb(35, 150, 0);
     color: #ffffff;
     text-align: center;
     text-transform: uppercase;
@@ -25,7 +25,7 @@ header p {
 
 /* Nastavení hlavní části stránky*/
 main {
-    background-color: rgb(102, 188, 209);
+    background-color: rgb(35, 150, 0);
     width: 1200px;
     margin: 50px auto;
 }
@@ -37,7 +37,7 @@ main {
 }
 
 .flex-container div {
-    background-color: #333846;
+    background-color: rgb(109, 109, 109);
     padding: 20px;
     margin: 20px;
     flex: 25%;
@@ -54,5 +54,6 @@ main {
 }
 
 a{
+    text-decoration: none;
     color: rgb(255, 255, 255);
 }

@@ -8,7 +8,6 @@ body {
   height: auto;
   }
 
-
 main {
     background: white;
     width: 1200px;
@@ -28,11 +27,12 @@ h1 {
     
     }
 h2 {
-    background-color: rgb(35, 150, 0);
+    background-color: rgb(109, 109, 109);
     color: rgb(255, 255, 255);
-    padding: 20px 0 10px 100px;
-    border: 5px solid red;
+    padding: 10px 0 10px 20px;
+    border: 4px solid rgb(35, 150, 0);
     }
+    
 p  {
     text-align:justify;
     margin-top: 20px;
@@ -43,6 +43,9 @@ p  {
         color: rgb(255, 255, 255);
         text-decoration: none;
     }
+li {
+    margin-top: 8px;
+}
 
 /* Add a black background color to the top navigation */
 .topnav {
@@ -62,7 +65,7 @@ p  {
   
   /* Change the color of links on hover */
   .topnav a:hover {
-    background-color: #ff0000;
+    background-color: rgb(109, 109, 109);
     color: rgb(255, 255, 255);
   }
   
@@ -71,3 +74,13 @@ p  {
     background-color: rgb(35, 150, 0);
     color: rgb(0, 0, 0);
   }
+
+  /* Respozivní design */
+@media screen and (max-width: 1200px) {
+  main {
+      width: 90%;
+  }
+  .flex-container div {
+      flex-direction: column;
+  }
+}
